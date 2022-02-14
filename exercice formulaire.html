@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Formulaire</title>
+</head>
+
+<body>
+<form>
+<h1>Vos commentaires : </h1>
+<p>Aidez-nous à améliorer notre site :</p>
+
+<fieldset>
+<legend>Informations personnelles</legend>
+<br/>Votre nom : <input type="text" placeholder="foulen">
+&nbsp &nbsp &nbsp &nbsp Votre adresse de courrier électronique : <input type="text"autofocus><br/><br/>
+</fieldset>
+<br/><br/>
+<fieldset>
+<legend>Expérience avec notre site</legend>
+<br/>Combien de fois avez vous visité le site ? <input type="number" name="visites" required="required"> &nbsp &nbsp &nbsp
+Quel est le degré de votre satisfaction ? <input type="range" name="satisfaction" value="50"><br/><br/>
+</fieldset>
+
+<br/><br/><label for="comm">Vos commentaires :</label><br/> <textarea name="commentaires" rows="4" cols="10"  ID="comm"></textarea>
+
+<br/>
+<br/>Indiquez les éléments du site que vous aimez : 
+<input type="checkbox" name="aimer" value="design"> Design du site
+<input type="checkbox" name="aimer" value="liens"> Les liens
+<input type="checkbox" name="aimer" value="navigation"> Facilité de navigation
+<input type="checkbox" name="aimer" value="images"> Les images
+<br/><br/>
+<input type="submit">
+<input type="reset" value="Effacer">
+
+</form>
+</body>
+
+</html>
